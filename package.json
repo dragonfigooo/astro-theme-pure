@@ -20,8 +20,9 @@
   "dependencies": {
     "@astrojs/check": "0.9.9",
     "@astrojs/compiler-rs": "^0.1.10",
-    "@astrojs/rss": "4.0.18",
-    "@astrojs/vercel": "10.0.6",
+    "@astrojs/markdown-remark": "^7.3.1",
+    "@astrojs/rss": "^4.0.19",
+    "@astrojs/vercel": "^11.0.11",
     "@waline/client": "^3.15.2",
     "astro": "6.4.8",
     "astro-pure": "1.4.9",
@@ -38,5 +39,10 @@
     "eslint-plugin-astro": "^1.7.0",
     "prettier": "^3.9.8",
     "prettier-plugin-astro": "^0.14.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "esbuild@0.27.7": true,
+    "sharp@0.34.5": true
   }
 }
