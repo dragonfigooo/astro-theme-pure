@@ -14,10 +14,10 @@ export const theme: ThemeUserConfig = {
   socialCard: '/images/social-card.png',
   /** Specify the default language for this site. */
   locale: {
-    lang: 'zh-CN',
+    lang: 'zh_CN',
     attrs: 'zh_CN',
     // Date locale
-    dateLocale: 'zh-CN',
+    dateLocale: 'zh_CN',
     dateOptions: {
       day: 'numeric',
       month: 'short',
@@ -49,7 +49,7 @@ export const theme: ThemeUserConfig = {
   header: {
     menu: [
       { title: 'Blog', link: '/blog' },
-      { title: 'Docs', link: '/docs' },
+     // { title: 'Docs', link: '/docs' },
       { title: 'Projects', link: '/projects' },
       { title: 'Tags', link: '/tags' },
       { title: 'Archives', link: '/archives' },
